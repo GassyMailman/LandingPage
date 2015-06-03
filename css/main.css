@@ -1,0 +1,333 @@
+.page{
+	 background: url(../images/cloudsc.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+.set1{
+	margin-left:110px;
+	padding-top: 5px;
+	padding-bottom: 50px
+}
+
+.set2{
+	margin-left: 110px;
+}
+
+.spaces{
+	margin-right: 45px;
+}
+
+.inline{
+	display:
+}
+
+.about{
+	height: 300px;
+	font-family: 'ADAM.CG PRO', sans-serif;
+	font-size: 23px;
+  color: black;
+	width: 500px;
+	margin-left: 650px;
+	
+}
+
+.aboutme{
+	padding-top: 80px;
+	font-size: 50px;
+  margin-left: 440px;
+}
+
+.register{
+  font-family: 'ADAM.CG PRO', sans-serif;
+  color: black;
+}
+
+.projects{
+	padding-top: 10px;
+	font-size: 50px;
+	font-family: 'Pragati Narrow', sans-serif;
+}
+
+.space{
+	margin-right: 10px;
+}
+
+.line{
+	padding-bottom: 800px;
+	width: 80%;
+	border-color: black;
+}
+
+.line2{
+	border-color: black;
+	width: 30%;
+}
+
+.line3{
+	border-color: white;
+	width: 30%;
+}
+
+.icon1{
+	text-align: right;
+	display: block;
+	padding-top: 10px;
+	padding-right: 10px;
+	display: inline-flex;
+}
+
+.text{
+	font-size: 60px;
+	padding-left: 10px;
+	padding-top: 1px;
+	font-family: 'Pragati Narrow', sans-serif;
+
+}
+
+.text2{
+	font-size: 20px;
+	padding-left: 30px;
+	font-family: 'Pragati Narrow', sans-serif;
+	text-align: left;
+	padding-right: 1000px;
+}
+
+.name{
+	font-size: 60px;
+	font-family: 'Pragati Narrow', sans-serif;
+	padding-top: 227px;
+}
+
+.type{
+	font-size: 20px;
+	font-family: 'Pragati Narrow', sans-serif; 
+	padding-bottom: 270px;
+}
+
+
+
+
+.mobile-menu {
+  width: auto;
+  position: relative;
+  padding: 0;
+  height: 50px;
+  line-height: 50px;
+  /* disable text selection by clicking */
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.mobile-menu a.dropdown-link {
+  display: block;
+  height: 50px;
+  padding: 0 20px;
+  color: #FFFFFF;
+  font-size: 20px;
+  cursor: pointer;
+  background: #000000;
+}
+
+.mobile-menu a.dropdown-link:hover {
+  text-decoration: none;
+}
+
+.mobile-menu a.dropdown-link i {
+  float: right;
+  position: relative;
+  top: 15px;
+}
+
+.mobile-dropdown {
+  display: none;
+  list-style-type: none;
+  background: #000000;
+  padding: 0;
+  min-width: 125px;
+  position: relative;
+  z-index: 100;
+  margin: 0;
+}
+
+.mobile-dropdown li {
+  padding: 0;
+  height: auto;
+}
+
+.mobile-dropdown li a {
+  padding: 0;
+  color: #FFFFFF;
+  display: block;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.mobile-dropdown li a:hover {
+  text-decoration: none;
+  background: #00adef;
+}
+
+
+
+
+@media (max-width: 300px) {
+  html{
+  	background-color: blue;
+  }
+}
+
+
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgba(0,0,0,0.5);
+  font-size: 2rem;
+  min-height: 100%;
+  height: 100vh;
+}
+.Quick-navigation {
+   position:fixed;
+        width:5em;
+        left:0;
+        top:150px;
+        border-right: 0px none black;
+        border-top-width:3px; /*only relevant for first row*/
+        margin-top:-3px; /*compensate for top border*/
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.Quick-navigation-item {
+  color: #15155E;
+  text-decoration: none;
+  font-size: 1.3em;
+  -webkit-transition: color 0.3s;
+          transition: color 0.3s;
+  padding: 0.5em;
+  display: block;
+}
+.Quick-navigation-item:hover,
+.Quick-navigation-item.current {
+  color: #fff;
+}
+.Scroll-progress-indicator {
+  will-change: opacity, transform;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+  left: -10px;
+  border-radius: 2px;
+  position: absolute;
+  top: 50%;
+  opacity: 0;
+  padding: 2em;
+  -webkit-transform: translateX(200%) translateY(-50%);
+      -ms-transform: translateX(200%) translateY(-50%);
+          transform: translateX(200%) translateY(-50%);
+  background-color: rgba(0,0,0,0.1);
+}
+.Scroll-progress-indicator.visible {
+  -webkit-transform: translateX(-100%) translateY(-50%);
+      -ms-transform: translateX(-100%) translateY(-50%);
+          transform: translateX(-100%) translateY(-50%);
+  opacity: 1;
+}
+#A {
+ 
+}
+#B {
+	background: url(../images/mountain3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  height: 800px;
+}
+#C {
+ background: url(../images/mountain4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+#D {
+ 	background: url(../images/mountain2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  height: 800px;
+}
+#E {
+	background: url(../images/mountain2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+.Scroll-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.2);
+  border: none;
+  color: rgba(255,255,255,0.5);
+  font-size: 1.5rem;
+  padding: 0.5em;
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+  outline: none;
+}
+.Scroll-to-top.visible {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+.Scroll-to-top:hover {
+  color: rgba(255,255,255,0.9);
+}
